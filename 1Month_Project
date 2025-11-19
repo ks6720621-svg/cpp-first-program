@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    string Name;
+    cout << "Enter your name: ";
+    cin >> Name;
+
+    int Reg_number;
+    cout << "Enter your Reg. number: ";
+    cin >> Reg_number;
+    
+    string Fav_show;
+    cout << "Favorite Show Or Series: ";
+    cin >> Fav_show;
+    
+    float Rate;
+    cout << "Rate the show: ";
+    cin >> Rate;
+    
+    cout << " \n";
+    
+    cout << "Entered values:" << Reg_number << " " << Fav_show << " " << Rate << " " << "By " << Name <<endl;
+    
+    cout << " \n";
+    
+    cout << Name << " " << "Liked the show " << Fav_show << " " << "and rated it " << Rate <<endl;
+    
+    return 0;
+}
